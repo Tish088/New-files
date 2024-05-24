@@ -1,0 +1,119 @@
+.my-account-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.user-icon-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.user-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.icon-options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icon-button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #8644A2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.icon-button:hover {
+    background-color: #D862BC;
+}
+
+.account-details {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.account-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.edit-button,
+.save-button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.edit-button:hover,
+.save-button:hover {
+    background-color: #218838;
+}
+
+.detail-item {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.detail-item label {
+    display: block;
+    font-weight: bold;
+}
+
+.detail-item input {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.change-password-link {
+    color: #850F8D;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.change-password-link:hover {
+    color: #D2649A;
+}
+
+.my-plan {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.plan-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.pricing-link {
+    color: #850F8D;
+    text-decoration: none;
+    position: absolute;
+    top: 93.8%;
+    margin-left: 390px;
+}
